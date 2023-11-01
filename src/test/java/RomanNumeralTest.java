@@ -8,7 +8,6 @@ public class RomanNumeralTest {
     @Test
     public void testNumberOne() {
         int testDigit = 1;
-        String romanNumeralTest = "I";
-        Assertions.assertEquals(romanNumeralTest, converter.convert(testDigit));
+        Assertions.assertEquals("I", converter.convert(testDigit));
     }
 }
