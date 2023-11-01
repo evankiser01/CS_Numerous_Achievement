@@ -25,6 +25,11 @@ public class RomanNumeralTest {
         int testDigit = 4;
         Assertions.assertEquals("IV", converter.convert(testDigit));
     }
+    @Test
+    public void testNumberFive() {
+        int testDigit = 5;
+        Assertions.assertEquals("V", converter.convert(testDigit));
+    }
 
 
 }
