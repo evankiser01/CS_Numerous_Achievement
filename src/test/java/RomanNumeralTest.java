@@ -10,4 +10,15 @@ public class RomanNumeralTest {
         int testDigit = 1;
         Assertions.assertEquals("I", converter.convert(testDigit));
     }
+    @Test
+    public void testNumberTwo() {
+        int testDigit = 2;
+        Assertions.assertEquals("II", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumberThree() {
+        int testDigit = 3;
+        Assertions.assertEquals("III", converter.convert(testDigit));
+    }
+
 }
