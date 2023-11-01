@@ -20,5 +20,11 @@ public class RomanNumeralTest {
         int testDigit = 3;
         Assertions.assertEquals("III", converter.convert(testDigit));
     }
+    @Test
+    public void testNumberFour() {
+        int testDigit = 4;
+        Assertions.assertEquals("IV", converter.convert(testDigit));
+    }
+
 
 }
