@@ -8,6 +8,16 @@ public class RomanNumeralTestTripleDigits {
         int testDigit = 100;
         Assertions.assertEquals("C", converter.convert(testDigit));
     }
+    @Test
+    public void testNumber200() {
+        int testDigit = 200;
+        Assertions.assertEquals("CC", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber300() {
+        int testDigit = 300;
+        Assertions.assertEquals("CC", converter.convert(testDigit));
+    }
 
 
 }
