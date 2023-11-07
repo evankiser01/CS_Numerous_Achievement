@@ -30,6 +30,31 @@ public class RomanNumeralTest {
         int testDigit = 5;
         Assertions.assertEquals("V", converter.convert(testDigit));
     }
+    @Test
+    public void testNumberSix() {
+        int testDigit = 6;
+        Assertions.assertEquals("VI", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber7() {
+        int testDigit = 7;
+        Assertions.assertEquals("VII", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber8() {
+        int testDigit = 8;
+        Assertions.assertEquals("VIII", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber9() {
+        int testDigit = 9;
+        Assertions.assertEquals("IX", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber10() {
+        int testDigit = 10;
+        Assertions.assertEquals("X", converter.convert(testDigit));
+    }
 
 
 }
