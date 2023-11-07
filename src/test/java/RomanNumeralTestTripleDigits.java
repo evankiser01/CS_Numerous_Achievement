@@ -16,7 +16,7 @@ public class RomanNumeralTestTripleDigits {
     @Test
     public void testNumber300() {
         int testDigit = 300;
-        Assertions.assertEquals("CC", converter.convert(testDigit));
+        Assertions.assertEquals("CCC", converter.convert(testDigit));
     }
     @Test
     public void testNumber400() {
