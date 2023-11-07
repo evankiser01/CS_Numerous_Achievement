@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class RomanNumeralTestNumber20Through100 {
+public class RomanNumeralTestDoubleDigits {
     RomanNumeralConverter converter = new RomanNumeralConverter();
 
     @Test

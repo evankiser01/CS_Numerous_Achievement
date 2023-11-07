@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 
-public class RomanNumeralTestNumber1Through10 {
+public class RomanNumeralTestSingleDigits {
     RomanNumeralConverter converter = new RomanNumeralConverter();
 
     @Test
