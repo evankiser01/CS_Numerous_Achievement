@@ -28,6 +28,21 @@ public class RomanNumeralTestTripleDigits {
         int testDigit = 500;
         Assertions.assertEquals("D", converter.convert(testDigit));
     }
+    @Test
+    public void testNumber600() {
+        int testDigit = 600;
+        Assertions.assertEquals("DC", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber700() {
+        int testDigit = 700;
+        Assertions.assertEquals("DCC", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber800() {
+        int testDigit = 800;
+        Assertions.assertEquals("DCCC", converter.convert(testDigit));
+    }
 
 
 }
