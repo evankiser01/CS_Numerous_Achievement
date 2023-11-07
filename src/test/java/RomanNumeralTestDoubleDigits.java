@@ -24,5 +24,20 @@ public class RomanNumeralTestDoubleDigits {
         int testDigit = 50;
         Assertions.assertEquals("L", converter.convert(testDigit));
     }
+    @Test
+    public void testNumber60() {
+        int testDigit = 60;
+        Assertions.assertEquals("LX", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber70() {
+        int testDigit = 70;
+        Assertions.assertEquals("LXX", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber80() {
+        int testDigit = 80;
+        Assertions.assertEquals("LXXX", converter.convert(testDigit));
+    }
 
 }
