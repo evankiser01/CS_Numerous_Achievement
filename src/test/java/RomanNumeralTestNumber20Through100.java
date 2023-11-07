@@ -14,5 +14,15 @@ public class RomanNumeralTestNumber20Through100 {
         int testDigit = 30;
         Assertions.assertEquals("XXX", converter.convert(testDigit));
     }
+    @Test
+    public void testNumber40() {
+        int testDigit = 40;
+        Assertions.assertEquals("XL", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber50() {
+        int testDigit = 50;
+        Assertions.assertEquals("L", converter.convert(testDigit));
+    }
 
 }
