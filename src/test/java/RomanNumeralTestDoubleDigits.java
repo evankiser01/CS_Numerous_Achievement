@@ -5,6 +5,11 @@ public class RomanNumeralTestDoubleDigits {
     RomanNumeralConverter converter = new RomanNumeralConverter();
 
     @Test
+    public void testNumber10() {
+        int testDigit = 10;
+        Assertions.assertEquals("X", converter.convert(testDigit));
+    }
+    @Test
     public void testNumber20() {
         int testDigit = 20;
         Assertions.assertEquals("XX", converter.convert(testDigit));
@@ -38,6 +43,11 @@ public class RomanNumeralTestDoubleDigits {
     public void testNumber80() {
         int testDigit = 80;
         Assertions.assertEquals("LXXX", converter.convert(testDigit));
+    }
+    @Test
+    public void testNumber90() {
+        int testDigit = 90;
+        Assertions.assertEquals("XC", converter.convert(testDigit));
     }
 
 }

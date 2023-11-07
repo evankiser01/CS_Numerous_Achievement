@@ -50,11 +50,4 @@ public class RomanNumeralTestSingleDigits {
         int testDigit = 9;
         Assertions.assertEquals("IX", converter.convert(testDigit));
     }
-    @Test
-    public void testNumber10() {
-        int testDigit = 10;
-        Assertions.assertEquals("X", converter.convert(testDigit));
-    }
-
-
 }
