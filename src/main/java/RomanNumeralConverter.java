@@ -1,8 +1,8 @@
 public class RomanNumeralConverter {
 
     StringBuilder romanNumeralHolder = new StringBuilder();
-    int[] sigNumbers = {4, 1};
-    String[] romanNumerals = {"IV","I"};
+    int[] sigNumbers = {5, 4, 1};
+    String[] romanNumerals = {"V", "IV", "I"};
     public String convert(int userDigit) {
         for( int i=0; i<sigNumbers.length; i++) {
             while ( userDigit >= sigNumbers[i]) {
