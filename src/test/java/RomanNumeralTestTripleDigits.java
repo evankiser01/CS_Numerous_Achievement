@@ -43,6 +43,11 @@ public class RomanNumeralTestTripleDigits {
         int testDigit = 800;
         Assertions.assertEquals("DCCC", converter.convert(testDigit));
     }
+    @Test
+    public void testNumber900() {
+        int testDigit = 900;
+        Assertions.assertEquals("CM", converter.convert(testDigit));
+    }
 
 
 }
